@@ -12,7 +12,7 @@ div.sticky{
   top: 0;
   width: 10%;
   border: 2px solid #4CAF50;
-  height: 100px;
+  height: 120px;
   width: 100%;
 
 }
@@ -42,4 +42,31 @@ div.search-bar{
   border-radius: 15px;
   border: 1px #D3D3D3 solid;
   padding: 5px 5px 5px 25px;
+}
+
+div .apps{
+  width: 1.5%;
+  position: absolute;
+  right: 150px;
+  top: 26px;
+  border: 1px solid #D3D3D3;
+}
+
+div .user-image{
+  width: 2%;
+  position: absolute;
+  right: 50px;
+  top: 26px;
+}
+
+img.round{
+
+}
+
+div .bell-icon{
+  width: 3%;
+  position: absolute;
+  right: 90px;
+  top: 15px;
+  border: 1px solid #D3D3D3;
 }
