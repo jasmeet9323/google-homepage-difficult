@@ -149,3 +149,11 @@ font-weight: normal;
 p{
   margin: 0;
 }
+
+div.two-column{
+  margin:10px;
+}
+
+div.result-entry .special{
+  height: 150px;
+}
