@@ -1,35 +1,40 @@
 body{
-  margin: 10px;
+  width: 100%;
+  margin: auto;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 div.top-bar{
+  display: block;
   margin: 0px;
-  border: 2px solid #D3D3D3;
+  /*border: 2px solid #D3D3D3;*/
   width: 100%;
   height: 130px;
+  min-width: 1200px;
+  border-bottom: 2px solid #D3D3D3;
 }
 
 div.sticky{
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border: 2px solid #4CAF50;
+  /*border: 2px solid #4CAF50;*/
   height: 70px;
   width: 100%;
 
 }
 
 div.google-image{
-  width: 5%;
+  /*width: 5%;*/
+  width: 120px;
   position: absolute;
   left: 20px;
   top: 24px;
-  border: 2px solid #4CAF50;
+/*  border: 2px solid #4CAF50;*/
 }
 
 .search-bar input{
+  display: block;
   height: 30px;
   width: 500px;
 }
@@ -38,26 +43,26 @@ div.search-bar{
   position: absolute;
   top: 20px;
   left: 200px; 
-  border: 2px solid #D3D3D3;
+  /*border: 2px solid #D3D3D3;*/
 }
 
 .round{
   width: 100%;
   border-radius: 15px;
-  border: 1px #D3D3D3 solid;
+ /* border: 1px #D3D3D3 solid;*/
   padding: 5px 5px 5px 25px;
 }
 
 div.apps{
-  width: 1.5%;
+  width: 20px;
   position: absolute;
-  right: 150px;
-  top: 26px;
-  border: 1px solid #D3D3D3;
+  right: 130px;
+  top: 30px;
+ /* border: 1px solid #D3D3D3;*/
 }
 
 div.user-image{
-  width: 2%;
+  width: 30px;
   position: absolute;
   right: 50px;
   top: 26px;
@@ -71,8 +76,8 @@ div.bell-icon{
   width: 30px;
   position: absolute;
   right: 90px;
-  top: 15px;
-  border: 1px solid #D3D3D3;
+  top: 25px;
+ /* border: 1px solid #D3D3D3;*/
 }
 
 ul{
@@ -91,7 +96,7 @@ li.right{
 }
 
 div.navbar{
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: relative;
   top: 20px;
   left: 200px;
@@ -100,7 +105,7 @@ div.navbar{
 }
 
 div.n-result{
-  border: 1px solid green;
+ /* border: 1px solid green;*/
   position: relative;
   top: 5px;
   left: 200px;
@@ -118,7 +123,7 @@ a {
 }
 
 div.results{
-  border: 1px solid black;
+ /* border: 1px solid black;*/
   position: relative;
   top: 20px;
   left: 200px;
@@ -127,10 +132,10 @@ div.results{
 
 div.result-entry{
   position: relative;
-  height: 100px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: 1px solid red;
+  height: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ /* border: 1px solid red;*/
 }
 
 a.prime{
@@ -148,12 +153,13 @@ font-weight: normal;
 
 p{
   margin: 0;
+  font-size: 12px;
 }
 
 div.two-column{
-  margin:10px;
+  margin: 20px;
 }
 
-div.result-entry .special{
-  height: 150px;
+div.result-entry.special{
+  height: 100px;
 }
