@@ -1,6 +1,5 @@
-body{
-  width: 100%;
-  margin: auto;
+body, html{
+  margin: 0;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,7 +29,7 @@ div.google-image{
   position: absolute;
   left: 20px;
   top: 24px;
-/*  border: 2px solid #4CAF50;*/
+  /*  border: 2px solid #4CAF50;*/
 }
 
 .search-bar input{
@@ -49,7 +48,7 @@ div.search-bar{
 .round{
   width: 100%;
   border-radius: 15px;
- /* border: 1px #D3D3D3 solid;*/
+  /* border: 1px #D3D3D3 solid;*/
   padding: 5px 5px 5px 25px;
 }
 
@@ -58,7 +57,7 @@ div.apps{
   position: absolute;
   right: 130px;
   top: 30px;
- /* border: 1px solid #D3D3D3;*/
+  /* border: 1px solid #D3D3D3;*/
 }
 
 div.user-image{
@@ -77,7 +76,7 @@ div.bell-icon{
   position: absolute;
   right: 90px;
   top: 25px;
- /* border: 1px solid #D3D3D3;*/
+  /* border: 1px solid #D3D3D3;*/
 }
 
 ul{
@@ -106,10 +105,10 @@ div.navbar{
 
 div.n-result{
  /* border: 1px solid green;*/
-  position: relative;
-  top: 5px;
-  left: 200px;
-  width: 533px;
+ position: relative;
+ top: 5px;
+ left: 200px;
+ width: 533px;
 }
 
 p.n-result{
@@ -124,10 +123,10 @@ a {
 
 div.results{
  /* border: 1px solid black;*/
-  position: relative;
-  top: 20px;
-  left: 200px;
-  width: 533px;
+ position: relative;
+ top: 20px;
+ left: 200px;
+ width: 533px;
 }
 
 div.result-entry{
@@ -135,7 +134,7 @@ div.result-entry{
   height: flex;
   margin-top: 20px;
   margin-bottom: 20px;
- /* border: 1px solid red;*/
+  /* border: 1px solid red;*/
 }
 
 a.prime{
@@ -147,8 +146,8 @@ a.subprime{
 }
 
 h3{
-margin: 0;
-font-weight: normal;
+  margin: 0;
+  font-weight: normal;
 }
 
 p{
@@ -162,4 +161,34 @@ div.two-column{
 
 div.result-entry.special{
   height: 100px;
+}
+
+div.footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  height: 50px;
+  background-color: #f2f2f2;
+  text-align: left;
+  border-top: 1px solid #e4e4e4;
+  font-size: medium;
+}
+
+ul.footer{
+  width: 100%;
+  position: relative;
+  min-width: 600px;
+  margin-left: 170px;
+  margin-top: 10px
+  margin-bottom: 10px;
+  height: 100%;
+  background-color: #f2f2f2;
+
+}
+
+li.footer{
+  position: relative;
+  margin-left: 30px;
+  line-height: 35px;
+
 }
