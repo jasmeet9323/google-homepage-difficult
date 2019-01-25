@@ -101,6 +101,7 @@ div.navbar{
   left: 200px;
   width: 533px;
   height: 25px;
+  z-index: -1;
 }
 
 div.n-result{
@@ -194,7 +195,7 @@ li.footer{
 }
 
 div.pre-footer{
-  margin-top: 50px;
+  margin-top: 15px;
   width: 100%;
   position: relative;
   bottom: 0;
